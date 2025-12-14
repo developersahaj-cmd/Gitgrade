@@ -19,3 +19,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+## 🚀 **Deploying to GitHub Pages**
+
+### **Step 1: Initialize Git Repository**
+```bash
+# Initialize git
+git init
+
+# Add all files
+git add .
+
+# Initial commit
+git commit -m "Initial commit: GitGrade AI v2.0"
