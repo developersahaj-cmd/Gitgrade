@@ -41,3 +41,8 @@
   }
 }
 "homepage": "https://YOUR_USERNAME.github.io/gitgrade-ai"
+"scripts": {
+  "analyze": "source-map-explorer 'build/static/js/*.js'",
+  "size": "ls -lah build/",
+  "optimize": "react-scripts build --profile"
+}
