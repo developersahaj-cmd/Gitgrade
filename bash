@@ -30,3 +30,34 @@ npm run build
 
 # Deploy to GitHub Pages
 npm run deploy
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+# Clear cache and rebuild
+rm -rf node_modules package-lock.json
+npm install
+npm run build
+#!/bin/bash
+
+echo "🚀 Starting GitGrade AI deployment..."
+
+# Clean previous builds
+rm -rf build/
+
+# Install dependencies
+npm install
+
+# Build project
+echo "📦 Building project..."
+npm run build
+
+# Deploy to GitHub Pages
+echo "🌐 Deploying to GitHub Pages..."
+npm run deploy
+
+echo "✅ Deployment complete!"
+echo "🌍 Live at: https://YOUR_USERNAME.github.io/gitgrade-ai"
+chmod +x deploy.sh
+./deploy.sh
