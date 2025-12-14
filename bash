@@ -19,3 +19,14 @@ npm run build
 # Deploy to GitHub Pages
 npm run deploy
 npm test
+# Add remote origin
+git remote add origin https://github.com/YOUR_USERNAME/gitgrade-ai.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
+# Build the project
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
