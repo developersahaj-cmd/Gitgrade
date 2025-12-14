@@ -1,0 +1,16 @@
+gitgrade-ai/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── GitGrade.js
+│   │   ├── ScoreCircle.js
+│   │   └── CategoryProgress.js
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── package.json
+├── .env
+├── .gitignore
+└── README.md
