@@ -1,0 +1,8 @@
+# Create a new React app
+npx create-react-app gitgrade-ai
+
+# Navigate to project
+cd gitgrade-ai
+
+# Install required dependencies
+npm install lucide-react
